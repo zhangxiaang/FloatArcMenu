@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--给自定义属性在这里声明-->
+<resources>
+    <attr name="position">
+        <enum name="left_top" value="0"/>
+        <enum name="right_top" value="1"/>
+        <enum name="right_bottom" value="2"/>
+        <enum name="left_bottom" value="3"/>
+    </attr>
+    <attr name="radius" format="dimension"/>
+
+
+    <!--声明以下的几个属性是给ArcMenu视图使用的-->
+    <declare-styleable name="ArcMenu">
+        <attr name="position"/>
+        <attr name="radius"/>
+    </declare-styleable>
+</resources>
